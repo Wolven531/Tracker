@@ -6,9 +6,16 @@
 	],
 	"jsRules": { },
 	"rules": {
+		"arrow-parens": {
+			"severity": "off",
+			"options": "ban-single-arg-parens"
+		},
 		"indent": {
 			"severity": "error",
 			"options": "tabs"
+		},
+		"no-angle-bracket-type-assertion": {
+			"severity": "off"
 		},
 		"semicolon": {
 			"severity": "error",
