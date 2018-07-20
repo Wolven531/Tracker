@@ -1,0 +1,30 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended",
+		"tslint-eslint-rules"
+	],
+	"jsRules": { },
+	"rules": {
+		"indent": {
+			"severity": "error",
+			"options": "tabs"
+		},
+		"semicolon": {
+			"severity": "error",
+			"options": "never"
+		},
+		"trailing-comma": {
+			"severity": "error",
+			"options": {
+				"multiline": "never",
+				"singleline": "never"
+			}
+		},
+		"quotemark": {
+			"severity": "error",
+			"options": "single"
+		}
+	},
+	"rulesDirectory": []
+}
