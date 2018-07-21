@@ -21,7 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Inside\" />
+    <Folder Include="Inside\Models\" />
+    <Folder Include="Inside\Services\" />
+    <Folder Include="Outside\Repositories\" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
