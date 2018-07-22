@@ -5,6 +5,9 @@
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
+    <Authors>Anthony Williams</Authors>
+    <Company />
+    <StartupObject>Tracker.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
